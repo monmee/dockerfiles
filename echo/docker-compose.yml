@@ -1,0 +1,7 @@
+version: "3"
+services:
+  echo:
+    image: monmee/echo:latest
+    ports:
+      - 19000:8080
+
