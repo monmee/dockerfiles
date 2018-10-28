@@ -10,8 +10,7 @@ services:
     deploy:
       mode: global
       placement:
-        constraints: 
-          - node.role == manager
+        constraints: [node.role == manager]
     ports:
       - 80:80
       - 1936:1936 # for stats page
